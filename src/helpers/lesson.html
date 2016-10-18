@@ -1,0 +1,95 @@
+<quasar-layout>
+
+  <div slot="header" class="toolbar">
+    <button @click="close()">
+      <i>keyboard_arrow_left</i>
+    </button>
+    <quasar-toolbar-title :padding="1">
+      Lesson #
+    </quasar-toolbar-title>
+    <button @click="openModal()"><i>mode_edit</i></button>
+  </div>
+
+  <div class="layout-view">
+    <div class="layout-padding">
+
+      <div class="timeline">
+        <div class="timeline-label">
+          <h4 class="bg-white text-italic">
+            Lesson Title
+          </h4>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-badge">
+            <i>alarm</i>
+          </div>
+          <div class="timeline-title">
+            Mountain Trip
+          </div>
+          <div class="timeline-date text-italic">
+            <div>17:01</div>
+            <div>June 16th, 2016</div>
+          </div>
+          <div class="card">
+            <img :src="'statics/mountains.jpg'">
+            <div class="card-content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+          </div>
+        </div>
+        <div class="timeline-label">
+          <h4 class="bg-white text-italic">
+            Saturday
+          </h4>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-badge">
+            <i>alarm</i>
+          </div>
+          <div class="timeline-date text-italic">
+            <div>17:01</div>
+            <div>June 16th, 2016</div>
+          </div>
+          <div class="card">
+            <div class="card-title">
+              Card Title
+            </div>
+            <div class="card-content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+          </div>
+        </div>
+        <div class="timeline-label">
+          <h4 class="bg-white text-italic">
+            Sunday
+          </h4>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-badge">
+            <i>alarm</i>
+          </div>
+          <div class="timeline-date text-italic">
+            <div>17:01</div>
+            <div>June 16th, 2016</div>
+          </div>
+          <div class="card">
+            <div class="card-title">
+              Card Title
+            </div>
+            <div class="card-content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</quasar-layout>
